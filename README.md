@@ -1,6 +1,6 @@
 # sql-challenge
 
-This challenge mimics a first major task as a new data engineer at the fictional company, Pewlett Hackard. This project deals with data on company employees from the 1980s and 1990s. All that remains of the database are six CSV files. The goal is to design table to hold data from the CSVs, import the CSVs into a SQL database, and answer the following questions about the data:
+This challenge mimics a first major task as a new data engineer at the fictional company, Pewlett Hackard. This project deals with data on company employees from the 1980s and 1990s. All that remains of the database are six CSV files. The goal is to design tables to hold data from the CSVs, import the CSVs into a SQL database, and answer the following questions about the data:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
