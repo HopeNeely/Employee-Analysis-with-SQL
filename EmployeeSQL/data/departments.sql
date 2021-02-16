@@ -1,4 +1,4 @@
--- First Table: departments
+-- 2nd Table: departments
 
 DROP TABLE IF EXISTS departments;
 

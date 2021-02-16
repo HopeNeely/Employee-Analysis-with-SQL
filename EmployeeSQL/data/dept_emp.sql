@@ -1,4 +1,4 @@
--- Second Table: dept_emp
+-- 3rd Table: dept_emp
 
 DROP TABLE IF EXISTS dept_emp;
 
@@ -6,7 +6,7 @@ CREATE TABLE dept_emp
 (
     emp_no INTEGER NOT NULL,
     dept_no VARCHAR(30) NOT NULL,
-	PRIMARY KEY (emp_no)
+	PRIMARY KEY (emp_no),
 	FOREIGN KEY (dept_no) REFERENCES departments(dept_no)
 );
 
