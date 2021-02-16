@@ -1,6 +1,6 @@
--- 2nd Table: departments
+-- 3rd Table: departments
 
-DROP TABLE IF EXISTS departments;
+-- DROP TABLE IF EXISTS departments;
 
 CREATE TABLE departments
 (

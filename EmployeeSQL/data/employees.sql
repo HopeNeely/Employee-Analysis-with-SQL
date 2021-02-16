@@ -1,6 +1,6 @@
--- 4th Table: employees
+-- 2nd Table: employees
 
-DROP TABLE IF EXISTS employees
+-- DROP TABLE IF EXISTS employees;
 
 CREATE TABLE employees
 (
@@ -9,10 +9,10 @@ CREATE TABLE employees
     birth_date date,
     first_name VARCHAR(30),
     last_name VARCHAR(30),
-    sex character VARCHAR(10),
+    sex VARCHAR(10),
     hire_date date,
-	PRIMARY KEY emp_no,
-	FOREIGN KEY emp_no REFERENCES salaries(emp_no)
+	PRIMARY KEY (emp_no),
+    FOREIGN KEY (emp_title_id) REFERENCES titles(title_id) 
 );
 
--- Then import data from salaries.csv by right-clicking the table and using import/export tool.  
+-- Then import data from employees.csv by right-clicking the table and using import/export tool.  
