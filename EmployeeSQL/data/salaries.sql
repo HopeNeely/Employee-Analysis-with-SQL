@@ -1,4 +1,4 @@
--- 4th table: salaries
+-- 6th table: salaries
 
 -- DROP TABLE IF EXISTS salaries;
 
