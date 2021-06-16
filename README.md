@@ -8,23 +8,18 @@ PostgreSQL<br>
 [Quick Database Diagrams](http://www.quickdatabasediagrams.com)
 
 # Process
-
+## Data Engineering
 1. Reviewed the CSVs provided and created an ERD, or entity relationship diagram.
 ![EmployeeSQL/data/ERD.png](EmployeeSQL/data/ERD.png)
 
-2. List the following details of each employee: employee number, last name, first name, sex, and salary.
+2. Created tables in pgAdmin with the [EmployeeSQL/Analysis/tableschemata.sql](EmployeeSQL/Analysis/tableschemata.sql). While importing one CSV file at a time to fill these tables with data.
 
-2. List first name, last name, and hire date for employees who were hired in 1986.
+## Data Analysis
 
-3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-
-4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-
-5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-
-6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
-7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
-8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
-
+3. Queried database to find relevant employee information. See [EmployeeSQL/Analysis/QuestionSchemas.sql](EmployeeSQL/Analysis/QuestionSchemas.sql) for analysis.
+<br>
+<br>
+# Contact Information
+### Hope Neely<br>
+Email: [hope.neely@gmail.com](hope.neely@gmail.com)<br>
+LinkedIn: [https://www.linkedin.com/in/hopeneely/](https://www.linkedin.com/in/hopeneely/)
