@@ -1,8 +1,18 @@
-# sql-challenge
+# Employee Database with SQL
+![EmployeeSQL/data/sql.png](EmployeeSQL/data/sql.png)
+## Summary
+This project engineers and analyses data on a fictitious company's employees from the 1980s and 1990s. All that remains of the database are six CSV files. Tables were created to hold data from the CSVs in a Jupyter Notebook and the data was imported into a SQL database.
 
-This project analyses data on a fictitious company's employees from the 1980s and 1990s. All that remains of the database are six CSV files. Tables were created to hold data from the CSVs in a Jupyter Notebook and the data was imported into a SQL database.
+## Tools
+PostgreSQL<br>
+[Quick Database Diagrams](http://www.quickdatabasediagrams.com)
 
-1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+# Process
+
+1. Reviewed the CSVs provided and created an ERD, or entity relationship diagram.
+![EmployeeSQL/data/ERD.png](EmployeeSQL/data/ERD.png)
+
+2. List the following details of each employee: employee number, last name, first name, sex, and salary.
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
