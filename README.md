@@ -17,8 +17,7 @@ PostgreSQL<br>
 ## Data Analysis
 
 3. Queried database to find relevant employee information. See [EmployeeSQL/Analysis/QuestionSchemas.sql](EmployeeSQL/Analysis/QuestionSchemas.sql) for analysis.
-<br>
-<br>
+
 # Contact Information
 ### Hope Neely<br>
 Email: [hope.neely@gmail.com](hope.neely@gmail.com)<br>
