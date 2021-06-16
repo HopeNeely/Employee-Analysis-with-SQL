@@ -1,7 +1,7 @@
 # Employee Database with SQL
 ![EmployeeSQL/data/sql.png](EmployeeSQL/data/sql.png)
 ## Summary
-This project engineers and analyses data on a fictitious company's employees from the 1980s and 1990s. All that remains of the database are six CSV files. Tables were created to hold data from the CSVs in a Jupyter Notebook and the data was imported into a SQL database.
+This project engineers and analyses data on a fictitious company's employees from the 1980s and 1990s. All that remains of the database are six CSV files. The data was imported into a SQL database. Then the database was queried for analysis. 
 
 ## Tools
 PostgreSQL<br>
